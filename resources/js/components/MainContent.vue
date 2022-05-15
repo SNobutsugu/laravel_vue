@@ -33,5 +33,11 @@
 </template>
 
 <script>
-     export default {}
+export default {
+    name: "MainContent.vue"
+}
 </script>
+
+<style scoped>
+
+</style>

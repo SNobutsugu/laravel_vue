@@ -12,10 +12,18 @@
 </head>
 <body>
 <div id="app">
-    <header-component></header-component>
+    <header-component class="header"></header-component>
     <router-view/>
 </div>
 <!-- Scripts -->
 <script src="{{ mix('/js/app.js') }}" defer></script>
+<!-- Style -->
+<style scoped>
+    .header {
+        position:fixed;
+    }
+
+</style>
 </body>
 </html>
+
