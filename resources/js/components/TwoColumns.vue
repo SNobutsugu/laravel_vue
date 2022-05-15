@@ -19,12 +19,12 @@ export default {
     display: flex;
 }
 .sub {
-    height: 1080px;
+    height: 500px;
     overflow: scroll;
     border: red 5px solid;
 }
 .main {
-    height: 1080px;
+    height: 700px;
     overflow: scroll;
     border: blue 5px solid;
 }

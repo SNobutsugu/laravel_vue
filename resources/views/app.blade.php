@@ -20,7 +20,7 @@
 <!-- Style -->
 <style scoped>
     .header {
-        position:fixed;
+
     }
 
 </style>
