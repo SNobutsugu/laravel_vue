@@ -1,5 +1,5 @@
 <template>
-    <ul id="sub">
+    <ul class="sub">
         <li v-for="n in 100">
             {{ n }}回目
         </li>
@@ -13,5 +13,8 @@ export default {
 </script>
 
 <style scoped>
-
+.sub {
+    width: 100%;
+    height: 100%;
+}
 </style>
