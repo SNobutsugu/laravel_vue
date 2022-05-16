@@ -10,6 +10,9 @@
                     <router-link v-bind:to="{name: 'two.columns'}">
                         <button class="btn btn-success">Two Columns</button>
                     </router-link>
+                    <router-link v-bind:to="{name: 'partial.scroll'}">
+                        <button class="btn btn-success">PartialScroll</button>
+                    </router-link>
                 </div>
             </nav>
         </div>

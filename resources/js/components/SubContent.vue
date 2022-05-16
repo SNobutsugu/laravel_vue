@@ -1,6 +1,6 @@
 <template>
     <ul class="sub">
-        <li v-for="n in 10">
+        <li v-for="n in 100">
             {{ n }}回目
         </li>
     </ul>

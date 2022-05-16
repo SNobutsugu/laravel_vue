@@ -4,6 +4,7 @@ import TaskListComponent from "./components/TaskListComponent";
 
 import TwoColumns from "./components/TwoColumns";
 
+import PartialScroll from "./components/PartialScroll";
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
@@ -27,6 +28,11 @@ const router = new VueRouter({
             path: '/twoColumns',
             name: 'two.columns',
             component: TwoColumns
+        },
+        {
+            path: '/partialScroll',
+            name: 'partial.scroll',
+            component: PartialScroll
         },
     ]
  });
