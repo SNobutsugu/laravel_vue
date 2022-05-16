@@ -20,12 +20,10 @@ export default {
 }
 .sub {
     height: 500px;
-    overflow: scroll;
     border: red 5px solid;
 }
 .main {
     height: 700px;
-    overflow: scroll;
     border: blue 5px solid;
 }
 </style>

@@ -22,15 +22,14 @@
 <script> fs.show("3df3c97a-78a9-4814-b1d1-b661ce752ed9", "nobu_test_scroll", { company_name: "nobu_com", user_name: "satonobu", user_email: "st.nobutsugu+001@cloudcircus.co.jp"});fs.tracking();fs.survey();fs.guide();fs.checklist();</script>
 <!-- Style -->
 <style scoped>
+    #app {
+        padding-top: 70px;
+    }
     .header {
         position: fixed;
         /*基準を画面の左上に*/
         top: 0;
         left: 0;
-    }
-    .component {
-        /*余白が入らないように*/
-        margin-top: 60px;
     }
 
 </style>

@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="taskList">
         <table class="table table-hover">
             <thead class="thead-light">
             <tr>
@@ -35,3 +35,10 @@
 <script>
      export default {}
 </script>
+
+<style scoped>
+.taskList {
+    height: 500px;
+    overflow: scroll;
+}
+</style>
