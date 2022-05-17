@@ -3,6 +3,7 @@ import HeaderComponent from "./components/HeaderComponent";
 import TaskListComponent from "./components/TaskListComponent";
 
 import TwoColumns from "./components/TwoColumns";
+import ThreeColumns from "./components/ThreeColumns";
 
 import PartialScroll from "./components/PartialScroll";
 /**
@@ -33,6 +34,11 @@ const router = new VueRouter({
             path: '/partialScroll',
             name: 'partial.scroll',
             component: PartialScroll
+        },
+        {
+            path: '/threeColumns',
+            name: 'three.columns',
+            component: ThreeColumns
         },
     ]
  });

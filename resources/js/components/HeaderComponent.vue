@@ -13,6 +13,9 @@
                     <router-link v-bind:to="{name: 'partial.scroll'}">
                         <button class="btn btn-success">PartialScroll</button>
                     </router-link>
+                    <router-link v-bind:to="{name: 'three.columns'}">
+                        <button class="btn btn-success">Three Columns</button>
+                    </router-link>
                 </div>
             </nav>
         </div>
