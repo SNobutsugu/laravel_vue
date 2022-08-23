@@ -21,7 +21,7 @@ const router = new VueRouter({
     mode: 'history',
     routes: [
         {
-            path: '/tasks',
+            path: '/tasks/0',
             name: 'task.list',
             component: TaskListComponent
         },

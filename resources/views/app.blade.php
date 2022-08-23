@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-
     <title>{{ config('app.name', 'Vue Laravel SPA') }}</title>
     <!-- Styles -->
     <link href="{{ mix('/css/app.css') }}" rel="stylesheet">
@@ -17,9 +16,8 @@
 </div>
 <!-- Scripts -->
 <script src="{{ mix('/js/app.js') }}" defer></script>
-<script type="application/javascript" src="http://localhost:9082/js/review.js"></script>
-<script type="application/javascript" src="https://stage-view.fullstar10.com/js/review.js"></script>
-<script> fs.show("3df3c97a-78a9-4814-b1d1-b661ce752ed9", "nobu_test_scroll", { company_name: "nobu_com", user_name: "satonobu", user_email: "st.nobutsugu+001@cloudcircus.co.jp"});fs.tracking();fs.survey();fs.guide();fs.checklist();</script>
+<script type="application/javascript" src="https://dev-view.fullstar10.com/js/review.js"></script>
+<script> fs.clear();fs.show("4bb52e8d-125d-4fb1-9918-613c9b9d2765", "uuid", { company_name: "nobu", user_name: "nobu", user_email: "test@gmail.com", plan_name: "test"});fs.tracking();fs.survey();fs.guide();fs.checklist();fs.tooltip();</script>
 <!-- Style -->
 <style scoped>
     #app {
